@@ -1,0 +1,213 @@
+html {
+    scroll-behavior: smooth;
+    cursor:crosshair;
+    overflow-x: hidden;
+  
+  }
+  body{
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  /* 
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(22, 92, 28, 0);
+    border-radius: 10px;
+    background-color: #f5f5f500;
+  } */
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #0000000e;
+    filter: hue-rotate(90deg);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+    background-color: rgb(22, 92, 28);
+  }
+  
+  * {
+    box-sizing: border-box;
+    color: rgb(22, 92, 28);
+    
+  }
+  
+  .title-container{
+    font-family: "gridlite-pe-variable", sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr ;
+    position: relative;
+    height: auto;
+    font-size: 14px;
+    width: 100%;
+  }
+ 
+  .detail{
+  text-align: right;
+  
+}
+  .title {
+    font-family: "gridlite-pe-variable", sans-serif;
+    font-variation-settings: "ELSH" 2, "RECT" 1, "BACK" 750, "wght" 500;
+    display: inline-block;
+    font-style: normal; /* Initial font style */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: 0;
+    padding: 10px;
+    line-height: 1.2;
+    max-width: 100%; /* Prevent text from exceeding the container */
+    white-space: nowrap;
+    transition: font-variation-settings 1s ease-in-out;
+    cursor: none ;
+  }
+
+  .about-title{
+    font-family: "gridlite-pe-variable", sans-serif;
+    font-variation-settings: "ELSH" 2, "RECT" 200, "BACK" 100, "wght" 900;
+    display: block;
+    justify-content: center;
+    font-size: 28px;
+    cursor: pointer
+  }
+ 
+  .about-content{
+    text-align: center;
+    width: 60vw;
+    height: auto;
+    margin:0 auto;
+    text-align: center;
+  }
+  .miriam{
+    font-size: 3vh;
+  }
+  p {
+   
+  }
+ 
+  .last-part{
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    width: 100vw;
+    height: auto;
+    margin:0 auto;
+    text-align: center;
+    font-size: 3vh;
+  }
+  #customDate,
+  h1 {
+    font-family: "source-sans-3", sans-serif;
+    font-size: 3.5vh;
+    display: block;
+   
+   
+  }
+  .first-about{
+    text-align: left;
+    font-size: 3.5vh; 
+  }
+  .second-about{
+    font-size: 3.5vh; 
+  }
+  .third-about{
+    font-size:3vh
+  }
+  .fourth-about{
+    font-size: 3.5vh; 
+  }
+ 
+  .heading-right {
+    font-size: 3.5vh; 
+  }
+  .spreadsheeting{
+    font-family: "gridlite-pe-variable", sans-serif;
+
+  }
+
+  @media screen and (min-width: 601px) {
+    .miriam{
+      font-size: 3vh;
+    }
+    p {
+     
+    }
+  
+    h1 {
+      font-family: "source-sans-3", sans-serif;
+      font-size: 3.5vh;
+      display: block;
+     
+     
+    }
+    .first-about{
+      text-align: left;
+      font-size: 3.5vh; 
+    }
+    .second-about{
+      font-size: 3.5vh; 
+    }
+    .third-about{
+      font-size:3vh
+    }
+    .fourth-about{
+      font-size: 3.5vh; 
+    }
+   
+    .heading-right {
+      font-size: 3.5vh; 
+    }
+    .spreadsheeting{
+      font-family: "gridlite-pe-variable", sans-serif;
+  
+    }
+    .title-container{
+      font-size: 14px;
+    }
+  }
+ 
+  @media screen and (max-width: 600px) {
+    .miriam{
+      font-size: 1vh;
+    }
+    p {
+     
+    }
+  
+    h1 {
+      font-family: "source-sans-3", sans-serif;
+      font-size: 2vh;
+      display: block;
+     
+     
+    }
+    .first-about{
+      text-align: left;
+      font-size: 2vh; 
+    }
+    .second-about{
+      font-size: 2vh; 
+    }
+    .third-about{
+      font-size:2vh
+    }
+    .fourth-about{
+      font-size: 2vh; 
+    }
+   
+    .heading-right {
+      font-size: 2vh; 
+    }
+    .spreadsheeting{
+      font-family: "gridlite-pe-variable", sans-serif;
+
+    }
+    .title-container{
+      font-size: 10px;
+    }
+  }
