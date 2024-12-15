@@ -17,7 +17,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 15px;
-  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  /* -webkit-box-shadow: inset 0 0 6px rgba(22, 92, 28, 0.3); */
   background-color: rgb(22, 92, 28);
 }
 
@@ -198,7 +198,7 @@ input[type="range"] {
   width: 100%; 
   height: 60px; 
   outline: none; 
-  opacity: 0.5;
+  opacity: 0.7;
   transition: opacity 0.2s;
   background: rgba(255, 255, 255, 0.44);
   backdrop-filter: blur(9px);
@@ -208,9 +208,10 @@ input[type="range"] {
 }
 
 input[type="range"]:hover { /* On hover, increase opacity */
-  opacity: 0.7;
+  opacity: 0.9;
   pointer-events: auto;
-  
+  -webkit-backdrop-filter: blur(9px);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
@@ -346,7 +347,7 @@ img {
 
 .title {
   font-family: "gridlite-pe-variable", sans-serif;
-  font-variation-settings: "ELSH" 1, "RECT" 1, "BACK" 720, "wght" 300;
+  font-variation-settings: "ELSH" 1, "RECT" 1, "BACK" 500, "wght" 200;
   vertical-align: top; 
   display: inline-block;
   font-style: normal;
@@ -391,7 +392,8 @@ img {
   position: sticky;
   top: calc(6vh + 10px); 
   z-index: 98;
-  background: rgb(182, 182, 182)!important;
+  background: rgb(255, 255, 255)!important;
+  color: rgb(22, 92, 28)!important;
 }
 
 #container > div:nth-of-type(17),
@@ -399,7 +401,7 @@ textarea:nth-of-type(-n+15) {
   position: sticky;
   top: calc(6vh + 40px); 
   z-index: 97; 
-  box-shadow: rgba(151, 151, 151, 0.25) 0px 54px 55px, rgba(151, 151, 151, 0.12) 0px -12px 30px, rgba(151, 151, 151, 0.12) 0px 4px 6px, rgba(151, 151, 151, 0.17) 0px 12px 13px, rgba(151, 151, 151, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 30px 40px,  rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #container > div:nth-of-type(1){
@@ -462,7 +464,7 @@ textarea:nth-of-type(-n+15) {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
   #animatedText {
-    width:100vw;
+    width: 100vw;
     max-width: 100%;
   }
   .about-title{

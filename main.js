@@ -1,35 +1,41 @@
 const range = (start, end) => Array(end - start + 1).fill(start).map((element, index) => element + index);
 const charRange = (start, end) => range(start.charCodeAt(0), end.charCodeAt(0)).map(code => String.fromCharCode(code));
-
-
 // document.addEventListener('DOMContentLoaded', function() {
-//   // Function to generate random value between 1 and 900
+//   // Function to generate a random value between 1 and 900
 //   function getRandomValue() {
 //     return Math.floor(Math.random() * 900) + 1;
 //   }
 //   function getRandomValue2() {
 //     return Math.floor(Math.random() * 2) + 1;
 //   }
-
 //   // Select the title element
 //   const title = document.querySelector('.title');
 
-//   // Set the random values for font-variation-settings
-//   const randomRect = getRandomValue();
-//   const randomBack = getRandomValue();
-//   const randomWght = getRandomValue();
-//   const randomElsh = getRandomValue2();
+//   // Function to update the font-variation-settings with random values
+//   function updateTitleStyle() {
+//     const randomRect = getRandomValue();
+//     const randomBack = getRandomValue();
+//     const randomWght = getRandomValue();
+//     const randomElsh = getRandomValue2();
+//     // Update the font-variation-settings with the random values
+//     title.style.fontVariationSettings = `"ELSH" ${randomElsh}, "RECT" ${randomRect}, "BACK" ${randomBack}, "wght" ${randomWght}`;
+//   }
 
-//   // Update font-variation-settings with random values
-//   title.style.fontVariationSettings = `"ELSH" ${randomElsh}, "RECT" ${randomRect}, "BACK" ${randomBack}, "wght" ${randomWght}`;
+  
+  
 
-//   // Add event listener for click to animate and redirect
-//   title.addEventListener('click', function () {
-//     title.classList.add('animate-title');
-
-
+//   // Trigger the style update on hover (mouseover)
+//   title.addEventListener('mouseover', function() {
+//     updateTitleStyle();
 //   });
+
+//   // Optional: Add smooth transition when hover happens
+//   title.style.transition = 'font-variation-settings 0.4s ease';
+
+  
 // });
+
+
 
 window.onload = () => {
 
