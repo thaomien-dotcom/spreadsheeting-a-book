@@ -1,7 +1,8 @@
 html {
   scroll-behavior: smooth;
-  cursor:crosshair
-
+  cursor:crosshair;
+  height: 100vh;
+  max-height: 100%;
 }
 
 /* 
