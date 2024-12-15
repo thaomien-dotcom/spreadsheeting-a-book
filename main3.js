@@ -1,20 +1,3 @@
-
-document.addEventListener('DOMContentLoaded', function () {
-  var span = document.getElementById('customDate');
-
-  function time() {
-    var d = new Date();
-    var s = d.getSeconds();
-    var m = d.getMinutes();
-    var h = d.getHours();
-    span.textContent = 
-      ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2);
-  }
-
-  setInterval(time, 1000);
-});
-
-setInterval(time, 1000);
 const elements = document.querySelectorAll("textarea, div, span, p, h1, h2, h3, h4, h5, h6");
 
 elements.forEach((el) => {
@@ -43,3 +26,19 @@ elements.forEach((el) => {
     }
   }
 });
+document.addEventListener('DOMContentLoaded', function () {
+  var span = document.getElementById('customDate');
+customDate.style.fontSize = "4vh"
+  function time() {
+    var d = new Date();
+    var s = d.getSeconds();
+    var m = d.getMinutes();
+    var h = d.getHours();
+    span.textContent = 
+      ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2);
+  }
+
+  setInterval(time, 1000);
+});
+
+

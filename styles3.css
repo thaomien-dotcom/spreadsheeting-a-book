@@ -73,13 +73,13 @@ html {
     font-variation-settings: "ELSH" 2, "RECT" 200, "BACK" 100, "wght" 900;
     display: block;
     justify-content: center;
+    cursor: pointer;
     font-size: 28px;
-    cursor: pointer
   }
  
   .about-content , .api{
     text-align: center;
-    width: 60vw;
+    width: 70vw;
     height: auto;
     margin:0 auto;
     text-align: center;
@@ -101,66 +101,67 @@ html {
   #customDate,
   h1 {
     font-family: "source-sans-3", sans-serif;
-    font-size: 3.5vh;
+    font-size: 3vh;
     display: block;
    
    
   }
   .first-about{
     text-align: left;
-    font-size: 3.5vh; 
+    font-size: 3vh; 
   }
   .second-about{
-    font-size: 3.5vh; 
+    font-size: 3vh; 
   }
   .third-about{
     font-size:3vh
   }
   .fourth-about , .api{
-    font-size: 3.5vh; 
+    font-size: 3vh; 
   }
  
   .heading-right {
-    font-size: 3.5vh; 
+    font-size: 3vh; 
   }
   .spreadsheeting{
     font-family: "gridlite-pe-variable", sans-serif;
 
   }
 .big{
-  font-size: 5vh; 
+  font-size: 4.5vh; 
 }
   @media screen and (min-width: 601px) {
     .big{
-      font-size: 5vh; 
+      font-size: 4.5vh; 
+    }
+    .about-title{
+   
+      font-size: 28px;
     }
     p {
      
     }
-  
     h1 {
       font-family: "source-sans-3", sans-serif;
-      font-size: 3.5vh;
+      font-size: 3;
       display: block;
-     
-     
     }
     .first-about{
       text-align: left;
-      font-size: 3.5vh; 
+      font-size: 3; 
     }
     .second-about{
-      font-size: 3.5vh; 
+      font-size: 3; 
     }
     .third-about{
       font-size:3vh
     }
     .fourth-about, .api{
-      font-size: 3.5vh; 
+      font-size: 3; 
     }
    
     .heading-right {
-      font-size: 3.5vh; 
+      font-size: 3; 
     }
     .spreadsheeting{
       font-family: "gridlite-pe-variable", sans-serif;
@@ -174,6 +175,10 @@ html {
   @media screen and (max-width: 600px) {
     .big{
       font-size: 3vh; 
+    }
+    .about-title{
+   
+      font-size: 20px;
     }
     .miriam{
       font-size: 1vh;
