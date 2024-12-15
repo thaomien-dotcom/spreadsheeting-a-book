@@ -454,9 +454,17 @@ textarea:nth-of-type(-n+15) {
   top: calc(6vh + 40px); 
   z-index: 97; 
 }
+#animatedText {
+  width:100vw;
+  max-width: 100%;
+}
 }
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
+  #animatedText {
+    width:100vw;
+    max-width: 100%;
+  }
   .about-title{
     font-size: 20px
   }
