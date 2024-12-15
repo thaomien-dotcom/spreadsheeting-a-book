@@ -77,16 +77,14 @@ html {
     cursor: pointer
   }
  
-  .about-content{
+  .about-content , .api{
     text-align: center;
     width: 60vw;
     height: auto;
     margin:0 auto;
     text-align: center;
   }
-  .miriam{
-    font-size: 3vh;
-  }
+ 
   p {
    
   }
@@ -118,7 +116,7 @@ html {
   .third-about{
     font-size:3vh
   }
-  .fourth-about{
+  .fourth-about , .api{
     font-size: 3.5vh; 
   }
  
@@ -129,10 +127,12 @@ html {
     font-family: "gridlite-pe-variable", sans-serif;
 
   }
-
+.big{
+  font-size: 5vh; 
+}
   @media screen and (min-width: 601px) {
-    .miriam{
-      font-size: 3vh;
+    .big{
+      font-size: 5vh; 
     }
     p {
      
@@ -155,7 +155,7 @@ html {
     .third-about{
       font-size:3vh
     }
-    .fourth-about{
+    .fourth-about, .api{
       font-size: 3.5vh; 
     }
    
@@ -172,6 +172,9 @@ html {
   }
  
   @media screen and (max-width: 600px) {
+    .big{
+      font-size: 3vh; 
+    }
     .miriam{
       font-size: 1vh;
     }
@@ -196,7 +199,7 @@ html {
     .third-about{
       font-size:2vh
     }
-    .fourth-about{
+    .fourth-about, .api{
       font-size: 2vh; 
     }
    

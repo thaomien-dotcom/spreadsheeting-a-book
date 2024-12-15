@@ -84,8 +84,13 @@ textarea {
   /* transform: translateY(-5vh); */
   /* margin-left: 100px; */
   margin-top:  calc(13vw - 18.3vw);
+  text-decoration: none!important;
+  font-family: "gridlite-pe-variable", sans-serif;
+  font-variation-settings: "ELSH" 2, "RECT" 1, "BACK" 1, "wght" 900;
 }
-
+.dot a{
+  text-decoration:none;
+}
 
 
 
@@ -182,7 +187,7 @@ p:hover {
 .button-layout{
   background-color: #ffffff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  box-shadow: rgba(151, 151, 151, 0.25) 0px 54px 55px, rgba(151, 151, 151, 0.12) 0px -12px 30px, rgba(151, 151, 151, 0.12) 0px 4px 6px, rgba(151, 151, 151, 0.17) 0px 12px 13px, rgba(151, 151, 151, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   cursor: pointer;
   color: rgb(22, 92, 28);
   display: flex;
@@ -194,8 +199,11 @@ p:hover {
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  opacity: 0.9;
+
 }
 .button-layout:hover{
+  opacity: 1;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .slider-overlay {
@@ -222,18 +230,19 @@ input[type="range"] {
   width: 100%; 
   height: 60px; 
   outline: none; 
-  opacity: 0.4;
+  opacity: 0.5;
   transition: opacity 0.2s;
   background: rgba(255, 255, 255, 0.44);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  box-shadow: rgba(151, 151, 151, 0.25) 0px 54px 55px, rgba(151, 151, 151, 0.12) 0px -12px 30px, rgba(151, 151, 151, 0.12) 0px 4px 6px, rgba(151, 151, 151, 0.17) 0px 12px 13px, rgba(151, 151, 151, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 input[type="range"]:hover { /* On hover, increase opacity */
   opacity: 0.7;
   pointer-events: auto;
+  
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
@@ -445,8 +454,11 @@ textarea:nth-of-type(-n+15) {
     padding-bottom: 8vw;
   }
   .dot {
+ 
     font-size: 18px;
     margin-top:  calc(13vw - 18.3vw);
+  text-decoration: none;
+
   }
   p {
     font-size: 10px;
@@ -490,6 +502,7 @@ textarea:nth-of-type(-n+15) {
   .dot {
     font-size: 12px;
     margin-top:  calc(0.1vw - 18.3vw);
+    text-decoration: none;
 
   }
   p {
