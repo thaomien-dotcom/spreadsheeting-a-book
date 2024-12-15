@@ -117,6 +117,7 @@ document.addEventListener("wheel", function (e) {
     createLabel(number); // Create the row header (number)
     letters.forEach(letter => {
       const textarea = document.createElement("textarea");
+      textarea.disabled = true;
       textarea.id = letter + number;
       textarea.ariaLabel = letter + number;
       textarea.classList.add("textarea-cell"); // Add a class for additional styling
@@ -127,7 +128,7 @@ document.addEventListener("wheel", function (e) {
       //   textarea.style.backgroundColor = "lightgrey"; // Choose your color
       // }
     
-      if (letters.indexOf(letter) % 2 !== 0) {
+      if (letters) {
         textarea.style.backgroundColor = "#F8F8F8"; // Choose your color
       }
 
