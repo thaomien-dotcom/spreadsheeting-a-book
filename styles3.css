@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
     cursor:crosshair;
     overflow-x: hidden;
+    height: 100vh;
+    max-height: 100%;
   
   }
   body{
