@@ -522,3 +522,7 @@ textarea:nth-of-type(-n+15) {
   z-index: 97; 
 }
 }
+
+textarea:focus {
+  outline: none;
+}

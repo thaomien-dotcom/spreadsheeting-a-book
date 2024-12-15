@@ -117,18 +117,17 @@ document.addEventListener("wheel", function (e) {
     createLabel(number); // Create the row header (number)
     letters.forEach(letter => {
       const textarea = document.createElement("textarea");
-      textarea.disabled = true;
       textarea.id = letter + number;
       textarea.ariaLabel = letter + number;
       textarea.classList.add("textarea-cell"); // Add a class for additional styling
-
+      textarea.readOnly = true;
       // textarea.style.backgroundColor = getRandomColor();
 
       // if (number % 2 !== 0 || letters.indexOf(letter) % 2 !== 0) {
       //   textarea.style.backgroundColor = "lightgrey"; // Choose your color
       // }
     
-      if (letters) {
+      if (letters.indexOf(letter) % 2 !== 0) {
         textarea.style.backgroundColor = "#F8F8F8"; // Choose your color
       }
 
