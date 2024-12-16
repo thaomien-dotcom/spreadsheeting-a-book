@@ -3,6 +3,7 @@ html {
   cursor:crosshair;
   height: 100vh;
   max-height: 100%;
+  overflow: hidden;
 }
 
 /* 
@@ -177,4 +178,6 @@ p.expand{
 @media screen and (max-width: 600px) {
   .title-container{
     font-size: 10px;
-  }}
+  }
+
+}
