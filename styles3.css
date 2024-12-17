@@ -222,4 +222,7 @@ html {
     .title-container{
       font-size: 10px;
     }
+    .last-part {
+      font-size: 2vh
+    }
   }
