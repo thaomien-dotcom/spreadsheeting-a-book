@@ -1,10 +1,6 @@
 html {
   scroll-behavior: smooth;
   cursor:crosshair;
-  height: 100vh;
-  width: 100vh;
-  max-height: 100%;
-  max-width: 100%;
   overflow: hidden;
 }
 
@@ -34,7 +30,7 @@ html {
 }
 
 .title-container {
-   font-family: "gridlite-pe-variable", sans-serif;
+  font-family: "gridlite-pe-variable", sans-serif;
   margin:0;
   padding:0;
   padding-bottom: 20px;
@@ -43,7 +39,6 @@ html {
   position: relative;
   height: auto;
   font-size: 14px;
-
   transition: font-variation-settings 1s ease-in-out; /* Smooth transition on hover */
 }
 .detail{
