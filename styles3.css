@@ -4,7 +4,7 @@ html {
     overflow-x: hidden;
     height: 100vh;
     max-height: 100%;
-  
+    
   }
   body{
     font-family: "source-sans-3", sans-serif;
@@ -80,11 +80,10 @@ html {
   }
  
   .about-content , .api{
-    text-align: center;
-    width: 70vw;
+    text-align: justify;
+    width: 50vw;
     height: auto;
     margin:0 auto;
-    text-align: center;
   }
  
   p {
@@ -97,9 +96,12 @@ html {
     width: 100vw;
     height: auto;
     margin:0 auto;
-    text-align: center;
+    text-align: left;
     font-size: 3vh;
+    margin-top: 60px;
   }
+
+  
   #customDate,
   h1 {
     font-family: "source-sans-3", sans-serif;

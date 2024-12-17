@@ -469,7 +469,7 @@ textarea:nth-of-type(-n+15) {
   #animatedText {
     width: 100vw;
     max-width: 100%;
-    font-size: clamp(2rem, 17.9vw, 30rem); 
+    font-size: clamp( rem, 17.9vw, 30rem); 
   }
   .about-title{
     font-size: 20px
